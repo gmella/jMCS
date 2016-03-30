@@ -42,3 +42,12 @@ mvn clean package
 ```
 
 Jar files are then available in `target` directory !
+
+Build status
+============
+Continuous integration by Travis CI (build + tests):
+
+   * Branch use_Unsafe: 
+<img src="https://travis-ci.org/gmella/jMCS.svg?branch=master" alt="build status"/>
+
+
