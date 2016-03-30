@@ -37,6 +37,7 @@ cd jMCS/parent-pom
 mvn -Dassembly.skipAssembly -Djarsigner.skip=true clean install
 cd ..
 mvn process-resources
+
 # build jMCS jar files
 mvn clean package
 ```
